@@ -1,9 +1,9 @@
-🕸️ AI Web Scraper
+#🕸️ AI Web Scraper
 
 AI Web Scraper is an intelligent web scraping application that extracts website content and uses LLMs to parse and analyze the scraped data.
 It is built with Streamlit, Selenium, BeautifulSoup, and LangChain with Ollama for natural language parsing.
 
-🚀 Features
+##🚀 Features
 
 🌐 Scrape Any Website – Extracts page content using Selenium + BeautifulSoup.
 
@@ -15,7 +15,7 @@ It is built with Streamlit, Selenium, BeautifulSoup, and LangChain with Ollama f
 
 📊 Interactive UI – Streamlit-based web interface for scraping and querying data.
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 
 Python
 
@@ -34,7 +34,7 @@ LangChain
 Ollama
  – LLM for natural language processing
 
-📂 Project Structure
+##📂 Project Structure
 AI-Web-Scraper/
 │── main.py              # Streamlit UI entry point
 │── scrape.py            # Scraping utilities (Selenium + BeautifulSoup)
@@ -42,62 +42,62 @@ AI-Web-Scraper/
 │── requirements.txt     # Project dependencies
 │── chromedriver.exe     # Chrome WebDriver (for Selenium)
 
-⚙️ Installation
+##⚙️ Installation
 
-Clone the repository
+###Clone the repository
 
 git clone https://github.com/your-username/ai-web-scraper.git
 cd ai-web-scraper
 
 
-Set up a virtual environment (recommended)
+###Set up a virtual environment (recommended)
 
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate      # On Windows
 
 
-Install dependencies
+###Install dependencies
 
 pip install -r requirements.txt
 
 
-Set environment variables (optional)
+###Set environment variables (optional)
 
 Create a .env file to configure custom settings like TARGET_URL.
 
-▶️ Usage
+##▶️ Usage
 
 Run the Streamlit app:
 
 streamlit run main.py
 
 
-Enter a website URL in the text box.
+-Enter a website URL in the text box.
 
-Scrape and view the cleaned DOM content.
+-Scrape and view the cleaned DOM content.
 
-Describe what you want to extract (e.g., "List all product names and prices").
+-Describe what you want to extract (e.g., "List all product names and prices").
 
-Let the AI parse the results using Ollama LLM.
+-Let the AI parse the results using Ollama LLM.
 
-📝 Example Workflow
+##📝 Example Workflow
 
-Input: https://example.com/products
+-Input: https://example.com/products
 
-Query: "Extract all product names and their prices"
+-Query: "Extract all product names and their prices"
 
-Output: AI returns a structured list of products with corresponding prices.
+-Output: AI returns a structured list of products with corresponding prices.
 
-🔮 Future Improvements
+##🔮 Future Improvements
 
- Add database storage (SQLite / MongoDB)
+ -Add database storage (SQLite / MongoDB)
 
- Enable export to CSV/Excel
+ -Enable export to CSV/Excel
 
- Add support for multiple LLM providers
+ -Add support for multiple LLM providers
 
- Enhance CAPTCHA handling
+ -Enhance CAPTCHA handling
 
 📜 License
 
